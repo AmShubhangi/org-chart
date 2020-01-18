@@ -1,0 +1,119 @@
+{
+  "_from": "r-orgchart",
+  "_id": "r-orgchart@0.0.6",
+  "_inBundle": false,
+  "_integrity": "sha512-vpvoDvMx+mS4NVgyf6lp4KVMvr7O6fUQK6zlCPSMf7oxoMFXkIXMIqTssCcgQBhWUFkYylzW4cQR2oVMSvXXYQ==",
+  "_location": "/r-orgchart",
+  "_phantomChildren": {
+    "acorn-dynamic-import": "2.0.2",
+    "async": "2.6.3",
+    "center-align": "0.1.3",
+    "co": "4.6.0",
+    "code-point-at": "1.1.0",
+    "create-react-class": "15.6.3",
+    "decamelize": "1.2.0",
+    "emojis-list": "2.1.0",
+    "error-ex": "1.3.2",
+    "fbjs": "0.8.17",
+    "graceful-fs": "4.2.3",
+    "interpret": "1.2.0",
+    "is-utf8": "0.2.1",
+    "json-loader": "0.5.7",
+    "json-stable-stringify": "1.0.1",
+    "loader-runner": "2.4.0",
+    "loose-envify": "1.4.0",
+    "memory-fs": "0.4.1",
+    "mkdirp": "0.5.1",
+    "node-libs-browser": "2.2.1",
+    "normalize-package-data": "2.5.0",
+    "number-is-nan": "1.0.1",
+    "object-assign": "4.1.1",
+    "pinkie-promise": "2.0.1",
+    "prop-types": "15.7.2",
+    "require-directory": "2.1.1",
+    "right-align": "0.1.3",
+    "set-blocking": "2.0.0",
+    "source-map": "0.5.7",
+    "uglify-to-browserify": "1.0.2",
+    "watchpack": "1.6.0",
+    "webpack-sources": "1.4.3",
+    "window-size": "0.1.0",
+    "wordwrap": "0.0.2"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "r-orgchart",
+    "name": "r-orgchart",
+    "escapedName": "r-orgchart",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/r-orgchart/-/r-orgchart-0.0.6.tgz",
+  "_shasum": "0d4140b6c9358bc21f718c4201a27432ffd2f104",
+  "_spec": "r-orgchart",
+  "_where": "/home/codecrunch/Desktop/dummyrg",
+  "author": {
+    "name": "Kristina Sičaja",
+    "email": "kristina@kodbiro.com",
+    "url": "http://www.kodbiro.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/kodbiro/r-orgchart/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/react-fontawesome": "0.0.18",
+    "lodash": "^4.17.10",
+    "react": "^15.5.4",
+    "react-addons-update": "^15.6.2",
+    "webpack": "^2.6.1"
+  },
+  "deprecated": false,
+  "description": "R-orgchart is a simple library for displaying and creating orgcharts in React.",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.20.3"
+  },
+  "homepage": "https://github.com/kodbiro/r-orgchart#readme",
+  "keywords": [
+    "r-orgchart",
+    "orgchart",
+    "org chart",
+    "react",
+    "react-orgchart",
+    "chart",
+    "tree-view"
+  ],
+  "license": "MIT",
+  "main": "build/index.js",
+  "name": "r-orgchart",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodbiro/r-orgchart.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.6"
+}

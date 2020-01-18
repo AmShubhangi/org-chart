@@ -1,0 +1,227 @@
+[
+  {
+    "Name": "Global",
+    "GroupId": "Global",
+    "LocationGroupType": "Global",
+    "Country": "United States",
+    "Locale": "en-US",
+    "CreatedOn": "10/13/2016 12:57:39 PM",
+    "LgLevel": 0,
+    "Users": "5",
+    "Admins": "16",
+    "Devices": "0",
+    "id": 7,
+    "ParentLocationId": null,
+    "Uuid": "5a94f2d4-4896-435f-a083-ab1c19d76575"
+  },
+  {
+    "Name": "Mobinergy Lab",
+    "GroupId": "mobinergy",
+    "LocationGroupType": "Container",
+    "Country": "France",
+    "Locale": "en-AU",
+    "ParentLocationId": 7,
+    "ParentLocationGroup": {
+      "id": {
+        "Value": 7
+      },
+      "Uuid": "5a94f2d4-4896-435f-a083-ab1c19d76575"
+    },
+    "CreatedOn": "10/13/2016 12:57:39 PM",
+    "LgLevel": 1,
+    "Users": "24",
+    "Admins": "19",
+    "Devices": "3",
+    "id": 570,
+    "Uuid": "db863b4b-0d39-4148-bba8-b11d2641c888"
+  },
+  {
+    "Name": "Customer tests",
+    "GroupId": "CT00",
+    "LocationGroupType": "Customer",
+    "Country": "France",
+    "Locale": "en-AU",
+    "ParentLocationId": 570,
+    "ParentLocationGroup": {
+      "id": {
+        "Value": 570
+      },
+      "Uuid": "db863b4b-0d39-4148-bba8-b11d2641c888"
+    },
+    "CreatedOn": "10/13/2016 1:39:49 PM",
+    "LgLevel": 2,
+    "Users": "3",
+    "Admins": "3",
+    "Devices": "0",
+    "id": 571,
+    "Uuid": "8cf36f47-1248-45ad-bbef-d4474dab50f6"
+  },
+  {
+    "Name": "Demos",
+    "GroupId": "demos",
+    "LocationGroupType": "Container",
+    "Country": "France",
+    "Locale": "en-AU",
+    "ParentLocationId": 570,
+    "ParentLocationGroup": {
+      "id": {
+        "Value": 570
+      },
+      "Uuid": "db863b4b-0d39-4148-bba8-b11d2641c888"
+    },
+    "CreatedOn": "10/13/2016 1:41:04 PM",
+    "LgLevel": 2,
+    "Users": "1",
+    "Admins": "1",
+    "Devices": "0",
+    "id": 572,
+    "Uuid": "3e263f0f-b51e-474b-a36a-45bae2f89b90"
+  },
+  {
+    "Name": "Thibaut",
+    "GroupId": "tb01",
+    "LocationGroupType": "Customer",
+    "Country": "United States",
+    "Locale": "en-AU",
+    "ParentLocationId": 574,
+    "ParentLocationGroup": {
+      "id": {
+        "Value": 574
+      },
+      "Uuid": "4a933415-0af3-4d63-85f3-807d965ed528"
+    },
+    "CreatedOn": "11/18/2016 10:20:07 AM",
+    "LgLevel": 3,
+    "Users": "5",
+    "Admins": "3",
+    "Devices": "0",
+    "id": 588,
+    "Uuid": "cd905cce-18df-47d4-b702-39423d24bd32"
+  },
+  {
+    "Name": "LaPoste-AndroidForWork",
+    "GroupId": "laposteafw",
+    "LocationGroupType": "Container",
+    "Country": "United States",
+    "Locale": "en-AU",
+    "ParentLocationId": 573,
+    "ParentLocationGroup": {
+      "id": {
+        "Value": 573
+      },
+      "Uuid": "d4d44302-b2d8-4fa4-98d9-9f18f91bca12"
+    },
+    "CreatedOn": "11/21/2016 10:59:24 AM",
+    "LgLevel": 4,
+    "Users": "0",
+    "Admins": "0",
+    "Devices": "0",
+    "id": 589,
+    "Uuid": "529d90c9-4aed-483b-8ef1-5b9f8e3e8259"
+  },
+  {
+    "Name": "La Poste - Gsuite",
+    "GroupId": "lapostegsuite",
+    "LocationGroupType": "Container",
+    "Country": "United States",
+    "Locale": "en-AU",
+    "ParentLocationId": 590,
+    "ParentLocationGroup": {
+      "id": {
+        "Value": 573
+      },
+      "Uuid": "d4d44302-b2d8-4fa4-98d9-9f18f91bca12"
+    },
+    "CreatedOn": "11/22/2016 2:38:50 PM",
+    "LgLevel": 4,
+    "Users": "1",
+    "Admins": "1",
+    "Devices": "0",
+    "id": 590,
+    "Uuid": "d1bcdd80-4a45-4f48-922b-d8689513ad00"
+  },
+  {
+    "Name": "B Braun Melsungen (MDM)",
+    "GroupId": "bbraun",
+    "LocationGroupType": "Container",
+    "Country": "United States",
+    "Locale": "en-US",
+    "ParentLocationId": 571,
+    "ParentLocationGroup": {
+      "id": {
+        "Value": 571
+      },
+      "Uuid": "8cf36f47-1248-45ad-bbef-d4474dab50f6"
+    },
+    "CreatedOn": "12/2/2016 8:17:24 AM",
+    "LgLevel": 3,
+    "Users": "1",
+    "Admins": "1",
+    "Devices": "0",
+    "id": 591,
+    "Uuid": "58df4b8f-a394-40d0-b9b1-9c280f1224a6"
+  },
+  {
+    "Name": "EMEA",
+    "GroupId": "",
+    "LocationGroupType": "Container",
+    "Country": "United States",
+    "Locale": "en-US",
+    "ParentLocationId": 591,
+    "ParentLocationGroup": {
+      "id": {
+        "Value": 591
+      },
+      "Uuid": "58df4b8f-a394-40d0-b9b1-9c280f1224a6"
+    },
+    "CreatedOn": "12/2/2016 8:32:02 AM",
+    "LgLevel": 4,
+    "Users": "0",
+    "Admins": "0",
+    "Devices": "0",
+    "id": 592,
+    "Uuid": "81d48e4c-a0e1-44a2-9d8f-ad08bf3a5035"
+  },
+  {
+    "Name": "APAC",
+    "GroupId": "",
+    "LocationGroupType": "Container",
+    "Country": "United States",
+    "Locale": "en-US",
+    "ParentLocationId": 591,
+    "ParentLocationGroup": {
+      "id": {
+        "Value": 591
+      },
+      "Uuid": "58df4b8f-a394-40d0-b9b1-9c280f1224a6"
+    },
+    "CreatedOn": "12/2/2016 8:32:13 AM",
+    "LgLevel": 4,
+    "Users": "0",
+    "Admins": "0",
+    "Devices": "0",
+    "id": 593,
+    "Uuid": "c124a35f-eae1-4362-be6c-c6a57dbe4bee"
+  },
+  {
+    "Name": "World Wide Company",
+    "GroupId": "wwc",
+    "LocationGroupType": "Container",
+    "Country": "United States",
+    "Locale": "en-AU",
+    "ParentLocationId": 578,
+    "ParentLocationGroup": {
+      "id": {
+        "Value": 578
+      },
+      "Uuid": "1efd6f23-2714-4a53-9661-5c91d08080bc"
+    },
+    "CreatedOn": "11/10/2016 11:20:10 AM",
+    "LgLevel": 4,
+    "Users": "2",
+    "Admins": "0",
+    "Devices": "4",
+    "id": 587,
+    "Uuid": "45749569-2f88-41aa-872e-cb55cca802ae"
+  }
+]
